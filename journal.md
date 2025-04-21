@@ -32,6 +32,12 @@
 Tout ça se trouve dans la carte des corpus
 où trouver les corpus : `https://www.ldc.upenn.edu/`, `https://www.elra.info/`, Kaggle
 Pour la tâche Summarization : `cnn_dailymail`
+#### Constituer un corpus
+- l'analyse d'un corpus pré-existant
+- constitution d'un corpus similaire (forme, méthode de récupération, combien de lignes, de colonnes et de classes). L'évaluation de la qualité de données: quartet d'anscombe, test de correlation, p_value, loi de zipf, heaps. Nettoyage de donnes. (outliers, deduped)
+- bon code (docstring, lisibilité, la conventions telles que PEP8, réutilisabilité, maintenabilité)
+- visualisation de données
+- évaluation du corpus
 
 ### Sur les données
 1. Quantité des données dépend de la tâche et du modèle utilisé.
@@ -58,4 +64,6 @@ PROJECT/
 ├── LICENSE 
 ├── Makefile 
 └── readme.md
-   
+
+
+
