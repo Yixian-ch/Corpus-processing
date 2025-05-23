@@ -1,0 +1,7 @@
+torch
+transformers
+datasets
+crawl4ai
+pydantic
+matplotlib
+numpy
